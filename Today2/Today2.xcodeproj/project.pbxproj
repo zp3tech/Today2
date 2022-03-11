@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023A954F27DB23BF005AF7E3 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023A954E27DB23BF005AF7E3 /* Reminder.swift */; };
 		02F42DCD27D6FCA000A90D10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F42DCC27D6FCA000A90D10 /* AppDelegate.swift */; };
 		02F42DCF27D6FCA000A90D10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F42DCE27D6FCA000A90D10 /* SceneDelegate.swift */; };
-		02F42DD127D6FCA000A90D10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F42DD027D6FCA000A90D10 /* ViewController.swift */; };
+		02F42DD127D6FCA000A90D10 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F42DD027D6FCA000A90D10 /* ReminderListViewController.swift */; };
 		02F42DD427D6FCA000A90D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F42DD227D6FCA000A90D10 /* Main.storyboard */; };
 		02F42DD627D6FCCD00A90D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F42DD527D6FCCD00A90D10 /* Assets.xcassets */; };
 		02F42DD927D6FCCD00A90D10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F42DD727D6FCCD00A90D10 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		023A954E27DB23BF005AF7E3 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		02F42DC927D6FCA000A90D10 /* Today2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F42DCC27D6FCA000A90D10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02F42DCE27D6FCA000A90D10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		02F42DD027D6FCA000A90D10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02F42DD027D6FCA000A90D10 /* ReminderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListViewController.swift; sourceTree = "<group>"; };
 		02F42DD327D6FCA000A90D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02F42DD527D6FCCD00A90D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02F42DD827D6FCCD00A90D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		023A954D27DB239D005AF7E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				023A954E27DB23BF005AF7E3 /* Reminder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		02F42DC027D6FC9F00A90D10 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +66,10 @@
 		02F42DCB27D6FCA000A90D10 /* Today2 */ = {
 			isa = PBXGroup;
 			children = (
+				023A954D27DB239D005AF7E3 /* Models */,
 				02F42DCC27D6FCA000A90D10 /* AppDelegate.swift */,
 				02F42DCE27D6FCA000A90D10 /* SceneDelegate.swift */,
-				02F42DD027D6FCA000A90D10 /* ViewController.swift */,
+				02F42DD027D6FCA000A90D10 /* ReminderListViewController.swift */,
 				02F42DD227D6FCA000A90D10 /* Main.storyboard */,
 				02F42DD527D6FCCD00A90D10 /* Assets.xcassets */,
 				02F42DD727D6FCCD00A90D10 /* LaunchScreen.storyboard */,
@@ -137,9 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02F42DD127D6FCA000A90D10 /* ViewController.swift in Sources */,
+				02F42DD127D6FCA000A90D10 /* ReminderListViewController.swift in Sources */,
 				02F42DCD27D6FCA000A90D10 /* AppDelegate.swift in Sources */,
 				02F42DCF27D6FCA000A90D10 /* SceneDelegate.swift in Sources */,
+				023A954F27DB23BF005AF7E3 /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
